@@ -13,7 +13,7 @@ function App() {
   useEffect(function () {
     axios({
       url: "/v1/search/news.json", //api 사이트 josn형식 url 주소
-      params: { query: "짜장" },
+      params: { query: "냉면" },
       headers: {
         'X-Naver-Client-Id': client_id,
         'X-Naver-Client-Secret': secret

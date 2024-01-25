@@ -12,6 +12,8 @@
 /build
 
 # misc
+# 내가 env 추가함 ( 사용자 정보 안보이게 하기 위함)
+.env 
 .DS_Store
 .env.local
 .env.development.local
